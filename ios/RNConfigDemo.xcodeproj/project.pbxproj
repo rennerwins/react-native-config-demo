@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* ConfigDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ConfigDemoTests.m */; };
+		00E356F31AD99517003FC87E /* RNConfigDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNConfigDemoTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		92B67BD29D468425E69F07B3 /* libPods-ConfigDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83CBC87980D311753C8A259B /* libPods-ConfigDemo.a */; };
-		BA899986CDAEB84081131B0A /* libPods-ConfigDemo-ConfigDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10849614A45DF5DFE82CFD1F /* libPods-ConfigDemo-ConfigDemoTests.a */; };
+		92B67BD29D468425E69F07B3 /* libPods-RNConfigDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83CBC87980D311753C8A259B /* libPods-RNConfigDemo.a */; };
+		BA899986CDAEB84081131B0A /* libPods-RNConfigDemo-RNConfigDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10849614A45DF5DFE82CFD1F /* libPods-RNConfigDemo-RNConfigDemoTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,27 +22,27 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = ConfigDemo;
+			remoteInfo = RNConfigDemo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* ConfigDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConfigDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* RNConfigDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNConfigDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* ConfigDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfigDemoTests.m; sourceTree = "<group>"; };
-		10849614A45DF5DFE82CFD1F /* libPods-ConfigDemo-ConfigDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ConfigDemo-ConfigDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07F961A680F5B00A75B9A /* ConfigDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConfigDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ConfigDemo/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ConfigDemo/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ConfigDemo/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ConfigDemo/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ConfigDemo/main.m; sourceTree = "<group>"; };
-		1920AA140ADD7DA3AFCC3319 /* Pods-ConfigDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfigDemo.release.xcconfig"; path = "Target Support Files/Pods-ConfigDemo/Pods-ConfigDemo.release.xcconfig"; sourceTree = "<group>"; };
-		77215648169C35B1B922EB60 /* Pods-ConfigDemo-ConfigDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfigDemo-ConfigDemoTests.release.xcconfig"; path = "Target Support Files/Pods-ConfigDemo-ConfigDemoTests/Pods-ConfigDemo-ConfigDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		7EB57EA3A4EE927414DC26E0 /* Pods-ConfigDemo-ConfigDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfigDemo-ConfigDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-ConfigDemo-ConfigDemoTests/Pods-ConfigDemo-ConfigDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ConfigDemo/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		83CBC87980D311753C8A259B /* libPods-ConfigDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ConfigDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1D97B9A5A72815792961CA0 /* Pods-ConfigDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfigDemo.debug.xcconfig"; path = "Target Support Files/Pods-ConfigDemo/Pods-ConfigDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* RNConfigDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNConfigDemoTests.m; sourceTree = "<group>"; };
+		10849614A45DF5DFE82CFD1F /* libPods-RNConfigDemo-RNConfigDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNConfigDemo-RNConfigDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* RNConfigDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNConfigDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RNConfigDemo/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RNConfigDemo/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RNConfigDemo/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNConfigDemo/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNConfigDemo/main.m; sourceTree = "<group>"; };
+		1920AA140ADD7DA3AFCC3319 /* Pods-RNConfigDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNConfigDemo.release.xcconfig"; path = "Target Support Files/Pods-RNConfigDemo/Pods-RNConfigDemo.release.xcconfig"; sourceTree = "<group>"; };
+		77215648169C35B1B922EB60 /* Pods-RNConfigDemo-RNConfigDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNConfigDemo-RNConfigDemoTests.release.xcconfig"; path = "Target Support Files/Pods-RNConfigDemo-RNConfigDemoTests/Pods-RNConfigDemo-RNConfigDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		7EB57EA3A4EE927414DC26E0 /* Pods-RNConfigDemo-RNConfigDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNConfigDemo-RNConfigDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-RNConfigDemo-RNConfigDemoTests/Pods-RNConfigDemo-RNConfigDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RNConfigDemo/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83CBC87980D311753C8A259B /* libPods-RNConfigDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNConfigDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1D97B9A5A72815792961CA0 /* Pods-RNConfigDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNConfigDemo.debug.xcconfig"; path = "Target Support Files/Pods-RNConfigDemo/Pods-RNConfigDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA899986CDAEB84081131B0A /* libPods-ConfigDemo-ConfigDemoTests.a in Frameworks */,
+				BA899986CDAEB84081131B0A /* libPods-RNConfigDemo-RNConfigDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,20 +59,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92B67BD29D468425E69F07B3 /* libPods-ConfigDemo.a in Frameworks */,
+				92B67BD29D468425E69F07B3 /* libPods-RNConfigDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* ConfigDemoTests */ = {
+		00E356EF1AD99517003FC87E /* RNConfigDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* ConfigDemoTests.m */,
+				00E356F21AD99517003FC87E /* RNConfigDemoTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = ConfigDemoTests;
+			path = RNConfigDemoTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -83,7 +83,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* ConfigDemo */ = {
+		13B07FAE1A68108700A75B9A /* RNConfigDemo */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -93,16 +93,16 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = ConfigDemo;
+			name = RNConfigDemo;
 			sourceTree = "<group>";
 		};
 		25948C5C988F366D7A003CAA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C1D97B9A5A72815792961CA0 /* Pods-ConfigDemo.debug.xcconfig */,
-				1920AA140ADD7DA3AFCC3319 /* Pods-ConfigDemo.release.xcconfig */,
-				7EB57EA3A4EE927414DC26E0 /* Pods-ConfigDemo-ConfigDemoTests.debug.xcconfig */,
-				77215648169C35B1B922EB60 /* Pods-ConfigDemo-ConfigDemoTests.release.xcconfig */,
+				C1D97B9A5A72815792961CA0 /* Pods-RNConfigDemo.debug.xcconfig */,
+				1920AA140ADD7DA3AFCC3319 /* Pods-RNConfigDemo.release.xcconfig */,
+				7EB57EA3A4EE927414DC26E0 /* Pods-RNConfigDemo-RNConfigDemoTests.debug.xcconfig */,
+				77215648169C35B1B922EB60 /* Pods-RNConfigDemo-RNConfigDemoTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -112,8 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				83CBC87980D311753C8A259B /* libPods-ConfigDemo.a */,
-				10849614A45DF5DFE82CFD1F /* libPods-ConfigDemo-ConfigDemoTests.a */,
+				83CBC87980D311753C8A259B /* libPods-RNConfigDemo.a */,
+				10849614A45DF5DFE82CFD1F /* libPods-RNConfigDemo-RNConfigDemoTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* ConfigDemo */,
+				13B07FAE1A68108700A75B9A /* RNConfigDemo */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* ConfigDemoTests */,
+				00E356EF1AD99517003FC87E /* RNConfigDemoTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				25948C5C988F366D7A003CAA /* Pods */,
@@ -143,8 +143,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* ConfigDemo.app */,
-				00E356EE1AD99517003FC87E /* ConfigDemoTests.xctest */,
+				13B07F961A680F5B00A75B9A /* RNConfigDemo.app */,
+				00E356EE1AD99517003FC87E /* RNConfigDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,9 +152,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* ConfigDemoTests */ = {
+		00E356ED1AD99517003FC87E /* RNConfigDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ConfigDemoTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RNConfigDemoTests" */;
 			buildPhases = (
 				76CE99BACB36F5E6BCD24B56 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -168,14 +168,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = ConfigDemoTests;
-			productName = ConfigDemoTests;
-			productReference = 00E356EE1AD99517003FC87E /* ConfigDemoTests.xctest */;
+			name = RNConfigDemoTests;
+			productName = RNConfigDemoTests;
+			productReference = 00E356EE1AD99517003FC87E /* RNConfigDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* ConfigDemo */ = {
+		13B07F861A680F5B00A75B9A /* RNConfigDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ConfigDemo" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RNConfigDemo" */;
 			buildPhases = (
 				BCFCC2C1601AFC7D815AC866 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -190,9 +190,9 @@
 			);
 			dependencies = (
 			);
-			name = ConfigDemo;
-			productName = ConfigDemo;
-			productReference = 13B07F961A680F5B00A75B9A /* ConfigDemo.app */;
+			name = RNConfigDemo;
+			productName = RNConfigDemo;
+			productReference = 13B07F961A680F5B00A75B9A /* RNConfigDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ConfigDemo" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RNConfigDemo" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,8 +225,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* ConfigDemo */,
-				00E356ED1AD99517003FC87E /* ConfigDemoTests */,
+				13B07F861A680F5B00A75B9A /* RNConfigDemo */,
+				00E356ED1AD99517003FC87E /* RNConfigDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,15 +271,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ConfigDemo-ConfigDemoTests/Pods-ConfigDemo-ConfigDemoTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RNConfigDemo-RNConfigDemoTests/Pods-RNConfigDemo-RNConfigDemoTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ConfigDemo-ConfigDemoTests/Pods-ConfigDemo-ConfigDemoTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RNConfigDemo-RNConfigDemoTests/Pods-RNConfigDemo-RNConfigDemoTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ConfigDemo-ConfigDemoTests/Pods-ConfigDemo-ConfigDemoTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNConfigDemo-RNConfigDemoTests/Pods-RNConfigDemo-RNConfigDemoTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6E5905E6E4BCC2D51CD28AC8 /* [CP] Embed Pods Frameworks */ = {
@@ -288,15 +288,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ConfigDemo/Pods-ConfigDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RNConfigDemo/Pods-RNConfigDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ConfigDemo/Pods-ConfigDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RNConfigDemo/Pods-RNConfigDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ConfigDemo/Pods-ConfigDemo-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNConfigDemo/Pods-RNConfigDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		76CE99BACB36F5E6BCD24B56 /* [CP] Check Pods Manifest.lock */ = {
@@ -314,7 +314,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ConfigDemo-ConfigDemoTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RNConfigDemo-RNConfigDemoTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -327,15 +327,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ConfigDemo/Pods-ConfigDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RNConfigDemo/Pods-RNConfigDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ConfigDemo/Pods-ConfigDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RNConfigDemo/Pods-RNConfigDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ConfigDemo/Pods-ConfigDemo-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNConfigDemo/Pods-RNConfigDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B25999711A7D3A22A762F15B /* [CP] Copy Pods Resources */ = {
@@ -344,15 +344,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ConfigDemo-ConfigDemoTests/Pods-ConfigDemo-ConfigDemoTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RNConfigDemo-RNConfigDemoTests/Pods-RNConfigDemo-RNConfigDemoTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ConfigDemo-ConfigDemoTests/Pods-ConfigDemo-ConfigDemoTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RNConfigDemo-RNConfigDemoTests/Pods-RNConfigDemo-RNConfigDemoTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ConfigDemo-ConfigDemoTests/Pods-ConfigDemo-ConfigDemoTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNConfigDemo-RNConfigDemoTests/Pods-RNConfigDemo-RNConfigDemoTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BCFCC2C1601AFC7D815AC866 /* [CP] Check Pods Manifest.lock */ = {
@@ -370,7 +370,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ConfigDemo-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RNConfigDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -403,7 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* ConfigDemoTests.m in Sources */,
+				00E356F31AD99517003FC87E /* RNConfigDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +421,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* ConfigDemo */;
+			target = 13B07F861A680F5B00A75B9A /* RNConfigDemo */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -429,14 +429,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EB57EA3A4EE927414DC26E0 /* Pods-ConfigDemo-ConfigDemoTests.debug.xcconfig */;
+			baseConfigurationReference = 7EB57EA3A4EE927414DC26E0 /* Pods-RNConfigDemo-RNConfigDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ConfigDemoTests/Info.plist;
+				INFOPLIST_FILE = RNConfigDemoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,17 +450,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConfigDemo.app/ConfigDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNConfigDemo.app/RNConfigDemo";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77215648169C35B1B922EB60 /* Pods-ConfigDemo-ConfigDemoTests.release.xcconfig */;
+			baseConfigurationReference = 77215648169C35B1B922EB60 /* Pods-RNConfigDemo-RNConfigDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = ConfigDemoTests/Info.plist;
+				INFOPLIST_FILE = RNConfigDemoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -474,19 +474,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConfigDemo.app/ConfigDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNConfigDemo.app/RNConfigDemo";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1D97B9A5A72815792961CA0 /* Pods-ConfigDemo.debug.xcconfig */;
+			baseConfigurationReference = C1D97B9A5A72815792961CA0 /* Pods-RNConfigDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = ConfigDemo/Info.plist;
+				INFOPLIST_FILE = RNConfigDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -497,7 +497,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ConfigDemo;
+				PRODUCT_NAME = RNConfigDemo;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -506,12 +506,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1920AA140ADD7DA3AFCC3319 /* Pods-ConfigDemo.release.xcconfig */;
+			baseConfigurationReference = 1920AA140ADD7DA3AFCC3319 /* Pods-RNConfigDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = ConfigDemo/Info.plist;
+				INFOPLIST_FILE = RNConfigDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -522,7 +522,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ConfigDemo;
+				PRODUCT_NAME = RNConfigDemo;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -654,7 +654,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ConfigDemoTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RNConfigDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -663,7 +663,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ConfigDemo" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RNConfigDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -672,7 +672,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ConfigDemo" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RNConfigDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
